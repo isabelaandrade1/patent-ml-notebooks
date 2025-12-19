@@ -52,7 +52,7 @@ Em caso de erro de formato, a API devolve JSON com campo `error` e status HTTP a
 - `app.py` — servidor Flask, carrega o modelo e expõe rotas.
 - `modelo_ia.keras` / `modelo_ia.h5` — pesos do modelo treinado (usar o `.keras` carregado em `app.py`).
 - `pagina.html` — pagina simples acessada em `/pagina`.
-- `TesteIA.ipynb` — notebook para exploracao/treino (nao executado pelo servidor).
+- `TesteIA.ipynb` — notebook para exploracao/treino.
 - `requirements.txt` — lista de dependencias.
 - `agiliza-pi/`, `Test-PI/` — pastas vazias reservadas.
 
